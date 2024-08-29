@@ -1,2 +1,2 @@
 # SistemOperasi_SK3C
-Description (optional)
+Repository yang berisi berkas matkul Sistem Operasi.
