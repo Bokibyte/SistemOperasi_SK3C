@@ -186,11 +186,18 @@ Kita akan memakai VirtualBox sebagai vm dan ubuntu sebagai distro. berikut step-
 > [!NOTE]
 > - Jangan centang `require my password to login` kalo gapengen ribet login lagi.
 
-10.  ini tampilan dari pilihan penginstallan sebelumnya. jika dirasa ada yang kurang bisa kembali.
+10. ini tampilan dari pilihan penginstallan sebelumnya. jika dirasa ada yang kurang bisa kembali.
 
     ![Ubuntu sum option](mdResource/ubuntu-summary.png)
 
-11.  Kesabaran diuji. silakan tinggal dan bermain game atau aktivitas lainnya.
+11. Kesabaran diuji. silakan tinggal dan bermain game atau aktivitas lainnya.
+
+    ![Ubuntu wait option](mdResource/ubuntu-installing.png)
+
+> [!TIP]
+> gas login daily.
+
+12. Tada! Ubuntu berhasil diinstall!
 
     ![Ubuntu wait option](mdResource/ubuntu-installing.png)
 
