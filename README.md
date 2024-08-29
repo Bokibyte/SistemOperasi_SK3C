@@ -3,8 +3,8 @@ Repository yang berisi berkas matkul Sistem Operasi.
 
 ---
 
-Amalul Mursyidin Dzaki
-09011282328024
+Amalul Mursyidin Dzaki  
+09011282328024  
 SK3C
 
 ---
