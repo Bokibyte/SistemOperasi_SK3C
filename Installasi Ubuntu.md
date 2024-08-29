@@ -106,8 +106,8 @@ Kita akan memakai VirtualBox sebagai vm dan ubuntu sebagai distro. berikut step-
 
 1. Pertama kita set nama dan lain lain untuk memberi identitas pada vm yang akan kita buat serta memilih disc OS yang akan diinstal.
 
-> [!NOTE]
-> - Pilih skip unattended installation untukmeminimalkan birokrasi yng ribet!
+    > [!NOTE]
+    > - Pilih skip unattended installation untukmeminimalkan birokrasi yng ribet!
 
     ![Tampilan input atribut vm pada virtualbox](mdResource/vbox-naming.png)
 
@@ -117,14 +117,14 @@ Kita akan memakai VirtualBox sebagai vm dan ubuntu sebagai distro. berikut step-
    
 3. Alokasikan disk untuk digunakan sebagai virtual harddisk.   
    
-> [!CAUTION]
-> Menyetel terlalu rendah dapat membuat vm bermasalahbahkan stuck! gunakan hanya dengan batas minimum 20GB.
+    > [!CAUTION]
+    > Menyetel terlalu rendah dapat membuat vm bermasalahbahkan stuck! gunakan hanya dengan batas minimum 20GB.
 
    ![Tampilan penyesuaian disk vm](mdResource/vbox-vhdd.png)
 
-> [!NOTE]
-> - centang Pre-allocated untuk membuat disk kosongterlebih dahulu sebagai alokasi ruang atau istilahnya"memesan ruang"
-> - jika sudah ada virtual disk pilih use an exiting.
+    > [!NOTE]
+    > - centang Pre-allocated untuk membuat disk    kosongterlebih dahulu sebagai alokasi ruang atau   istilahnya"memesan ruang"
+    > - jika sudah ada virtual disk pilih use an exiting.
 
 4. Rincian akir jika sudah selesai tekan finish. jika belum bisa kembali atau diatur disetting.
 
