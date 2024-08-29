@@ -1,13 +1,13 @@
-# Instalasi OS - Linux 💻
+# 💻 Instalasi OS - Linux 
 
 Halo, Saya akan membagikan cara instalasi Linux dengan list distro yang saya sediakan. disini juga ada tutorialnya. ini dibuat sebagai tugas dan juga untuk mempercantik github supaya tampak hijau wkwk.  
 
 ---
 
-# Step Menginstall Linux
+# 🔧 Step Menginstall Linux 
 
-- [Instalasi OS - Linux 💻](#instalasi-os---linux-)
-- [Step Menginstall Linux](#step-menginstall-linux)
+- [💻 Instalasi OS - Linux](#-instalasi-os---linux)
+- [🔧 Step Menginstall Linux](#-step-menginstall-linux)
 - [Software untuk Virtual Machine](#software-untuk-virtual-machine)
     - [Perbandingan VMware dan VirtualBox](#perbandingan-vmware-dan-virtualbox)
 - [Pemilihan Distro](#pemilihan-distro)
@@ -19,14 +19,14 @@ Halo, Saya akan membagikan cara instalasi Linux dengan list distro yang saya sed
     - [Mint](#mint)
     - [Tails](#tails)
     - [Fedora](#fedora)
-- [Membuat VM](#membuat-vm)
+- [Membuat VM - Edisi Ubuntu](#membuat-vm---edisi-ubuntu)
     - [Installasi Ubuntu](#installasi-ubuntu)
       - [Kenapa Harus " / " 🤔](#kenapa-harus----)
       - [Acuan dalam Memilih Tipe Format Disk](#acuan-dalam-memilih-tipe-format-disk)
       - [Hasil Instalasi](#hasil-instalasi)
-    - [Command Testing](#command-testing)
-      - [Navigasi](#navigasi)
-      - [Operasi pada File \& Folder](#operasi-pada-file--folder)
+- [Command Testing](#command-testing)
+  - [Navigasi](#navigasi)
+  - [Operasi pada File \& Folder](#operasi-pada-file--folder)
 
 ---
 
@@ -106,7 +106,7 @@ Distro[^1] linux ada banyak, bisa dipilih sesuai kebutuhan. berikut beberapa lis
 
 ---
 
-# Membuat VM 
+# Membuat VM - Edisi Ubuntu
 
 Kita akan memakai VirtualBox sebagai vm dan ubuntu sebagai distro. berikut step-by-stepnya:
 
@@ -244,9 +244,9 @@ ya singkatnya itu awal dari direktori linux. Selama instalasi Ubuntu, memilih "/
 
 ---
 
-### Command Testing
+# Command Testing
 
-#### Navigasi
+## Navigasi
 
 - cek direktori
     ```
@@ -281,7 +281,7 @@ ya singkatnya itu awal dari direktori linux. Selama instalasi Ubuntu, memilih "/
 
 ---
 
-#### Operasi pada File & Folder
+## Operasi pada File & Folder
 
 > [!TIP]
 > comingsoon ><
