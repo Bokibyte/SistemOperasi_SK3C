@@ -21,6 +21,7 @@ Halo, Saya akan membagikan cara instalasi Linux dengan list distro yang saya sed
     - [Fedora](#fedora)
 - [Membuat VM](#membuat-vm)
     - [Installasi Ubuntu](#installasi-ubuntu)
+    - [Terminal Testing](#terminal-testing)
 
 ---
 
@@ -134,7 +135,13 @@ Kita akan memakai VirtualBox sebagai vm dan ubuntu sebagai distro. berikut step-
 
     ![Tampilan vm yang sudah jadi](mdResource/vbox-done.png)
 
+---
+
 ### Installasi Ubuntu
+
+<div style="text-align: center; background: linear-gradient(135deg, purple, red); padding: 20px; border-radius: 10px;">
+    <img src="mdResource/ubuntu-crown.png" alt="Your Image" style="width: 50%; border-radius: 10px; ">
+</div><br>
 
 1. Pilih keyboard layout sesuai yang dimiliki. (umumnya querty, yaitu english).
 
@@ -176,7 +183,18 @@ Kita akan memakai VirtualBox sebagai vm dan ubuntu sebagai distro. berikut step-
 > - Kalo di windows, ini seperti `C:\` dan `D:\`
 > - Jika ruang kosong banyak, bisa dibuat partisi lain juga dengan mount point berbeda.
 
-9. Buat akun untuk OS Ubuntu.
+> [!TIP]
+> | Sistem Berkas | Keuntungan | Kekurangan |
+|---------------|------------|------------|
+| **EXT4**      | - Kinerja lebih baik dibandingkan EXT3 <br> - Mendukung ukuran file dan sistem berkas yang lebih besar <br> - Dapat memulihkan data dengan lebih baik <br> - Dukungan journaling untuk mengurangi risiko kehilangan data | - Tidak sepenuhnya kompatibel dengan Windows <br> - Fitur canggihnya mungkin berlebihan untuk penggunaan ringan |
+| **EXT3**      | - Stabil dan telah teruji selama bertahun-tahun <br> - Dukungan journaling <br> - Kompatibel dengan sebagian besar distribusi Linux | - Kinerja lebih rendah dibandingkan EXT4 <br> - Dukungan ukuran file dan sistem berkas lebih kecil dibandingkan EXT4 <br> - Tidak mendukung fitur canggih seperti EXT4 |
+| **SWAP**      | - Digunakan untuk memperluas kapasitas RAM virtual <br> - Membantu dalam manajemen memori ketika RAM terbatas | - Hanya digunakan untuk memori virtual, bukan penyimpanan data <br> - Kinerja mungkin lebih rendah dibandingkan dengan RAM fisik <br> - Data tidak disimpan secara permanen |
+| **NTFS**      | - Dukungan fitur canggih seperti kompresi, enkripsi, dan kontrol akses <br> - Kompatibel dengan Windows dan dapat dibaca/tulis oleh Linux dengan driver tambahan <br> - Dukungan ukuran file dan sistem berkas yang besar | - Kinerja mungkin lebih rendah pada sistem non-Windows <br> - Dukungan penuh di Linux membutuhkan instalasi driver tambahan <br> - Kompleksitas yang lebih tinggi dibandingkan sistem berkas Linux |
+| **FAT32**     | - Kompatibilitas luas dengan berbagai sistem operasi (Windows, Linux, macOS) <br> - Sederhana dan mudah digunakan | - Mendukung ukuran file maksimum 4GB <br> - Dukungan ukuran partisi maksimum 2TB <br> - Tidak ada fitur journaling <br> - Kurangnya keamanan dan kontrol akses |
+| **BTRFS**     | - Mendukung snapshot dan pengembalian (rollback) <br> - Manajemen volume dan RAID built-in <br> - Dukungan untuk cek konsistensi data dan pemulihan <br> - Skalabilitas dan kinerja tinggi | - Masih dianggap lebih eksperimental dibandingkan EXT4 <br> - Kompleksitas pengaturan dan manajemen <br> - Beberapa fitur mungkin tidak stabil atau belum matang |
+
+
+1. Buat akun untuk OS Ubuntu.
 
     ![Ubuntu account option](/mdResource/ubuntu-createaccount.png)
 
@@ -199,6 +217,13 @@ Kita akan memakai VirtualBox sebagai vm dan ubuntu sebagai distro. berikut step-
 
 12. Tada! Ubuntu berhasil diinstall!
 
-    ![Ubuntu wait option](mdResource/ubuntu-installing.png)
+    ![Ubuntu wait option](mdResource/ubuntu-done.png)
+
+> [!TIP]
+> Layar bisa di ubah melalui klik kanan > Display Setting > Display > Resolution
+
+---
+
+### Terminal Testing
 
 [^1]:Distro Linux adalah istilah yang merujuk pada distribusi sistem operasi berbasis Linux. Setiap distro terdiri dari kernel Linux yang merupakan inti dari sistem operasi, ditambah dengan koleksi perangkat lunak, manajer paket, antarmuka pengguna, dan utilitas lain yang dirancang untuk memenuhi kebutuhan tertentu atau audiens tertentu.
