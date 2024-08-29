@@ -1,4 +1,4 @@
-# Instalasi OS - Linux
+# Instalasi OS - Linux 💻
 
 Halo, Saya akan membagikan cara instalasi Linux dengan list distro yang saya sediakan. disini juga ada tutorialnya. ini dibuat sebagai tugas dan juga untuk mempercantik github supaya tampak hijau wkwk.  
 
@@ -6,12 +6,21 @@ Halo, Saya akan membagikan cara instalasi Linux dengan list distro yang saya sed
 
 # Step Menginstall Linux
 
-- [Instalasi OS - Linux](#instalasi-os---linux)
+- [Instalasi OS - Linux 💻](#instalasi-os---linux-)
 - [Step Menginstall Linux](#step-menginstall-linux)
 - [Software untuk Virtual Machine](#software-untuk-virtual-machine)
     - [Perbandingan VMware dan VirtualBox](#perbandingan-vmware-dan-virtualbox)
 - [Pemilihan Distro](#pemilihan-distro)
+    - [Ubuntu](#ubuntu)
+    - [Kali](#kali)
+    - [Arch](#arch)
+    - [Debian](#debian)
+    - [Rocky](#rocky)
+    - [Mint](#mint)
+    - [Tails](#tails)
+    - [Fedora](#fedora)
 - [Membuat VM](#membuat-vm)
+    - [Installasi Ubuntu](#installasi-ubuntu)
 
 ---
 
@@ -46,38 +55,86 @@ Selanjutnya, kita akan menggunakan VirtualBox sebagai vm.
 
 Distro[^1] linux ada banyak, bisa dipilih sesuai kebutuhan. berikut beberapa listnya:
 
-- [Ubuntu](https://ubuntu.com/download/desktop)
-  - **Bagusnya**: Ramah pengguna, stabil, dukungan komunitas besar, banyak digunakan oleh pemula dan profesional. Cocok untuk penggunaan sehari-hari, pengembangan perangkat lunak, dan server.
-  - **Untuk**: Desktop, Server, Cloud.
-- [Kali](https://www.kali.org/get-kali/)
-  - **Bagusnya**: Dirancang khusus untuk keamanan siber dan pengujian penetrasi (pentest). Dilengkapi dengan berbagai alat pentest yang sudah terinstall.
-  - **Untuk**: Pentesting, Forensik digital, Keamanan siber.
-- [Arch](https://archlinux.org/download/)
-  - **Bagusnya**: Sangat ringan dan cepat, memberikan pengguna kontrol penuh untuk mengatur sistem sesuai kebutuhan. Sangat dihargai oleh pengguna tingkat lanjut karena kesederhanaannya.
-  - **Untuk**: Pengguna tingkat lanjut, pengguna yang ingin kustomisasi penuh.
-- [Debian](https://www.debian.org/distrib/)
-  - **Bagusnya**:  Stabilitas tinggi, banyak digunakan di server karena kestabilannya. Basis dari banyak distro lain, termasuk Ubuntu.
-  - **Untuk**: Server, Desktop, Penggunaan umum.
-- [Rocky](https://rockylinux.org/download)
-  - >[!CAUTION]
-    >Ini tidak dibuat oleh Rocky Gerung!
-  - **Bagusnya**: Stabil dan reliabel, banyak digunakan di lingkungan server enterprise karena berbasis pada Red Hat Enterprise Linux (RHEL).
-  - **Untuk**: Server, Enterprise.
-- [Mint](https://www.linuxmint.com/download.php)
-  - **Bagusnya**: Antarmuka pengguna yang familiar bagi pengguna Windows, stabil, ramah pengguna, dan ringan. Cocok untuk mereka yang beralih dari Windows.
-  - **Untuk**: Pengguna desktop umum, Pemula.
-- [Tails](https://tails.net/install/download/index.en.html?ref=decredmagazine.com)
-  - **Bagusnya**: Didesain untuk keamanan dan privasi, dapat dijalankan dari USB tanpa meninggalkan jejak di komputer host.
-  - **Untuk**: Keamanan, Privasi, Aktivitas sensitif.
-- [Fedora](https://fedoraproject.org/id/)
-  - **Bagusnya**:  Distro cutting-edge yang sering menjadi ujung tombak teknologi baru di dunia Linux. Mendapatkan pembaruan yang sangat cepat.
-  - **Untuk**:  Developer, pengujian fitur terbaru.
+### [Ubuntu](https://ubuntu.com/download/desktop)
+
+- **Bagusnya**: Ramah pengguna, stabil, dukungan komunitas besar, banyak digunakan oleh pemula dan profesional. Cocok untuk penggunaan sehari-hari, pengembangan perangkat lunak, dan server.
+- **Untuk**: Desktop, Server, Cloud.
+
+### [Kali](https://www.kali.org/get-kali/)
+
+- **Bagusnya**: Dirancang khusus untuk keamanan siber dan pengujian penetrasi (pentest). Dilengkapi dengan berbagai alat pentest yang sudah terinstall.
+- **Untuk**: Pentesting, Forensik digital, Keamanan siber.
+
+### [Arch](https://archlinux.org/download/)
+
+- **Bagusnya**: Sangat ringan dan cepat, memberikan pengguna kontrol penuh untuk mengatur sistem sesuai kebutuhan. Sangat dihargai oleh pengguna tingkat lanjut karena kesederhanaannya.
+- **Untuk**: Pengguna tingkat lanjut, pengguna yang ingin kustomisasi penuh.
+
+### [Debian](https://www.debian.org/distrib/)
+
+- **Bagusnya**:  Stabilitas tinggi, banyak digunakan di server karena kestabilannya. Basis dari banyak distro lain, termasuk Ubuntu.
+- **Untuk**: Server, Desktop, Penggunaan umum.
+
+### [Rocky](https://rockylinux.org/download)
+
+>[!CAUTION]
+>Ini tidak dibuat oleh Rocky Gerung!
+
+- **Bagusnya**: Stabil dan reliabel, banyak digunakan di lingkungan server enterprise karena berbasis pada Red Hat Enterprise Linux (RHEL).
+- **Untuk**: Server, Enterprise.
+
+### [Mint](https://www.linuxmint.com/download.php)
+
+- **Bagusnya**: Antarmuka pengguna yang familiar bagi pengguna Windows, stabil, ramah pengguna, dan ringan. Cocok untuk mereka yang beralih dari Windows.
+- **Untuk**: Pengguna desktop umum, Pemula.
+
+### [Tails](https://tails.net/install/download/index.en.html?ref=decredmagazine.com)
+
+- **Bagusnya**: Didesain untuk keamanan dan privasi, dapat dijalankan dari USB tanpa meninggalkan jejak di komputer host.
+- **Untuk**: Keamanan, Privasi, Aktivitas sensitif.
+
+### [Fedora](https://fedoraproject.org/id/)
+
+- **Bagusnya**:  Distro cutting-edge yang sering menjadi ujung tombak teknologi baru di dunia Linux. Mendapatkan pembaruan yang sangat cepat.
+- **Untuk**:  Developer, pengujian fitur terbaru.
 
 ---
 
-# Membuat VM
+# Membuat VM 
 
-Kita akan memakai VirtualBox sebagai vm. berikut step-by-stepnya.
+Kita akan memakai VirtualBox sebagai vm dan ubuntu sebagai distro. berikut step-by-stepnya:
 
+1. Pertama kita set nama dan lain lain untuk memberi identitas pada vm yang akan kita buat serta memilih disc OS yang akan diinstal.
+
+    > [!NOTE]
+    > - Pilih skip unattended installation untuk meminimalkan birokrasi yng ribet!
+
+    ![Tampilan input atribut vm pada virtualbox](mdResource\vbox-naming.png)
+
+2. Lalu kita sesuaikan dengan hardware yang kita miliki. semakin besar semakin baik, tetapi semua kembali ke hardware yang dimiliki dan tujuan dari vm yang dibuat.
+   
+   ![Tampilan penyesuaian hardware vm](mdResource\vbox-sethardware.png)
+   
+3. Alokasikan disk untuk digunakan sebagai virtual harddisk.   
+    > [!CAUTION]
+    > Menyetel terlalu rendah dapat membuat vm bermasalah bahkan stuck! gunakan hanya dengan batas minimum 20GB.
+
+   ![Tampilan penyesuaian disk vm](mdResource\vbox-vhdd.png)
+
+    > [!NOTE]
+    > - centang Pre-allocated untuk membuat disk kosong terlebih dahulu sebagai alokasi ruang atau istilahnya "memesan ruang"
+    > - jika sudah ada virtual disk pilih use an exiting.
+
+4. Rincian akir jika sudah selesai tekan finish. jika belum bisa kembali atau diatur disetting.
+
+   ![Tampilan summary vm](mdResource\vbox-summary.png)
+
+5. Setelah selesai jangan lupa di start!
+
+    ![Tampilan vm yang sudah jadi](mdResource\vbox-done.png)
+
+### Installasi Ubuntu
+
+1. 
 
 [^1]:Distro Linux adalah istilah yang merujuk pada distribusi sistem operasi berbasis Linux. Setiap distro terdiri dari kernel Linux yang merupakan inti dari sistem operasi, ditambah dengan koleksi perangkat lunak, manajer paket, antarmuka pengguna, dan utilitas lain yang dirancang untuk memenuhi kebutuhan tertentu atau audiens tertentu.
