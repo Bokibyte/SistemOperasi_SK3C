@@ -136,6 +136,30 @@ Kita akan memakai VirtualBox sebagai vm dan ubuntu sebagai distro. berikut step-
 
 ### Installasi Ubuntu
 
-1. 
+1. Pilih keyboard layout sesuai yang dimiliki. (umumnya querty, yaitu english).
+2. Hubungkan ke internet (disarankan).
+3. Pilih install Ubuntu
+4. Pilih interactive install. atau jika sudah memiliki autoinstall bisa pilih automated.
+5. piih sesuai kebutuhan.
+
+> [!NOTE]
+> - Default hanya utilitas dan basic ubuntu.
+> - Extended bagi yang ingin utilitas lebih atau yang ingin menjadikan ubuntu sebagai main OS.
+
+6. Pilih sesuai kebutuhan.
+7. Pilih manual (disarankan).
+8. buat partisi untuk sistem dengan mount point `/` lalu partisi lagi dengan mount point bebas. setelah itu next.
+
+> [!NOTE]
+> - Kalo di windows, ini seperti `C:\` dan `D:\`
+> - Jika ruang kosong banyak, bisa dibuat partisi lain juga dengan mount point berbeda.
+
+9. Buat akun untuk OS Ubuntu.
+
+> [!CAUTION]
+> - JANGAN LUPA YA WKWKWK
+
+10. ini tampilan dari pilihan penginstallan sebelumnya. jika dirasa ada yang kurang bisa kembali.
+11. Kesabaran diuji. silakan tinggal dan bermain game atau aktivitas lainnya.
 
 [^1]:Distro Linux adalah istilah yang merujuk pada distribusi sistem operasi berbasis Linux. Setiap distro terdiri dari kernel Linux yang merupakan inti dari sistem operasi, ditambah dengan koleksi perangkat lunak, manajer paket, antarmuka pengguna, dan utilitas lain yang dirancang untuk memenuhi kebutuhan tertentu atau audiens tertentu.
