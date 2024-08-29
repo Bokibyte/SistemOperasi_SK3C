@@ -22,7 +22,6 @@ Kebanyakan orang memilih antara menggunakan vm atau dualboot. tetapi, lebih prak
 - [Virtual Box](https://www.virtualbox.org/)
 - [VMware Workstation](https://blogs.vmware.com/workstation/2024/05/vmware-workstation-pro-now-available-free-for-personal-use.html)
 
-
 > [!WARNING]
 > Pastikan device anda memiliki spesifikasi cukup kuat dan CPU harus mendukung teknologi virtualisasi seperti Intel VT-x atau AMD-V. Untuk user celeron, i know how its pain.
 
@@ -45,10 +44,40 @@ Selanjutnya, kita akan menggunakan VirtualBox sebagai vm.
 
 # Pemilihan Distro
 
-- 
-
 Distro[^1] linux ada banyak, bisa dipilih sesuai kebutuhan. berikut beberapa listnya:
 
+- [Ubuntu](https://ubuntu.com/download/desktop)
+  - **Bagusnya**: Ramah pengguna, stabil, dukungan komunitas besar, banyak digunakan oleh pemula dan profesional. Cocok untuk penggunaan sehari-hari, pengembangan perangkat lunak, dan server.
+  - **Untuk**: Desktop, Server, Cloud.
+- [Kali](https://www.kali.org/get-kali/)
+  - **Bagusnya**: Dirancang khusus untuk keamanan siber dan pengujian penetrasi (pentest). Dilengkapi dengan berbagai alat pentest yang sudah terinstall.
+  - **Untuk**: Pentesting, Forensik digital, Keamanan siber.
+- [Arch](https://archlinux.org/download/)
+  - **Bagusnya**: Sangat ringan dan cepat, memberikan pengguna kontrol penuh untuk mengatur sistem sesuai kebutuhan. Sangat dihargai oleh pengguna tingkat lanjut karena kesederhanaannya.
+  - **Untuk**: Pengguna tingkat lanjut, pengguna yang ingin kustomisasi penuh.
+- [Debian](https://www.debian.org/distrib/)
+  - **Bagusnya**:  Stabilitas tinggi, banyak digunakan di server karena kestabilannya. Basis dari banyak distro lain, termasuk Ubuntu.
+  - **Untuk**: Server, Desktop, Penggunaan umum.
+- [Rocky](https://rockylinux.org/download)
+  - >[!CAUTION]
+    >Ini tidak dibuat oleh Rocky Gerung!
+  - **Bagusnya**: Stabil dan reliabel, banyak digunakan di lingkungan server enterprise karena berbasis pada Red Hat Enterprise Linux (RHEL).
+  - **Untuk**: Server, Enterprise.
+- [Mint](https://www.linuxmint.com/download.php)
+  - **Bagusnya**: Antarmuka pengguna yang familiar bagi pengguna Windows, stabil, ramah pengguna, dan ringan. Cocok untuk mereka yang beralih dari Windows.
+  - **Untuk**: Pengguna desktop umum, Pemula.
+- [Tails](https://tails.net/install/download/index.en.html?ref=decredmagazine.com)
+  - **Bagusnya**: Didesain untuk keamanan dan privasi, dapat dijalankan dari USB tanpa meninggalkan jejak di komputer host.
+  - **Untuk**: Keamanan, Privasi, Aktivitas sensitif.
+- [Fedora](https://fedoraproject.org/id/)
+  - **Bagusnya**:  Distro cutting-edge yang sering menjadi ujung tombak teknologi baru di dunia Linux. Mendapatkan pembaruan yang sangat cepat.
+  - **Untuk**:  Developer, pengujian fitur terbaru.
+
+---
+
 # Membuat VM
+
+Kita akan memakai VirtualBox sebagai vm. berikut step-by-stepnya.
+
 
 [^1]:Distro Linux adalah istilah yang merujuk pada distribusi sistem operasi berbasis Linux. Setiap distro terdiri dari kernel Linux yang merupakan inti dari sistem operasi, ditambah dengan koleksi perangkat lunak, manajer paket, antarmuka pengguna, dan utilitas lain yang dirancang untuk memenuhi kebutuhan tertentu atau audiens tertentu.
