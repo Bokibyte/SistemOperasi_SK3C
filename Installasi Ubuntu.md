@@ -137,18 +137,40 @@ Kita akan memakai VirtualBox sebagai vm dan ubuntu sebagai distro. berikut step-
 ### Installasi Ubuntu
 
 1. Pilih keyboard layout sesuai yang dimiliki. (umumnya querty, yaitu english).
+
+    ![Ubuntu keyboard layout option](/mdResource/ubuntu-setkeyboard.png)
+
 2. Hubungkan ke internet (disarankan).
-3. Pilih install Ubuntu
-4. Pilih interactive install. atau jika sudah memiliki autoinstall bisa pilih automated.
+
+    ![Ubuntu internet option](/mdResource/ubuntu-choosenetwork.png)
+
+3. Pilih `Install Ubuntu` .
+
+    ![Ubuntu install confirm](/mdResource/ubuntu-install.png)
+
+4. Pilih interactive install. atau jika sudah memiliki `autoinstall.yaml` bisa pilih `Automated Installation`.
+
+    ![Ubuntu install type option](/mdResource/ubuntu-installoption.png)
+
 5. piih sesuai kebutuhan.
+
+    ![Ubuntu apps option](/mdResource/ubuntu-appsoption.png)
 
 > [!NOTE]
 > - Default hanya utilitas dan basic ubuntu.
 > - Extended bagi yang ingin utilitas lebih atau yang ingin menjadikan ubuntu sebagai main OS.
 
 6. Pilih sesuai kebutuhan.
+
+    ![Ubuntu dependecies option](/mdResource/ubuntu-defaultappsdown.png)
+
 7. Pilih manual (disarankan).
+
+    ![Ubuntu disk option](/mdResource/ubuntu-choosedisk.png)
+
 8. buat partisi untuk sistem dengan mount point `/` lalu partisi lagi dengan mount point bebas. setelah itu next.
+
+    ![Ubuntu partition option](/mdResource/ubuntu-choosepartition.png)
 
 > [!NOTE]
 > - Kalo di windows, ini seperti `C:\` dan `D:\`
@@ -156,10 +178,20 @@ Kita akan memakai VirtualBox sebagai vm dan ubuntu sebagai distro. berikut step-
 
 9. Buat akun untuk OS Ubuntu.
 
-> [!CAUTION]
-> - JANGAN LUPA YA WKWKWK
+    ![Ubuntu account option](/mdResource/ubuntu-createaccount.png)
 
-10. ini tampilan dari pilihan penginstallan sebelumnya. jika dirasa ada yang kurang bisa kembali.
-11. Kesabaran diuji. silakan tinggal dan bermain game atau aktivitas lainnya.
+> [!CAUTION]
+> - JANGAN LUPA YA DATA DIRINYA WKWKWK
+
+> [!NOTE]
+> - Jangan centang `require my password to login` kalo gapengen ribet login lagi.
+
+10.  ini tampilan dari pilihan penginstallan sebelumnya. jika dirasa ada yang kurang bisa kembali.
+
+    ![Ubuntu sum option](mdResource/ubuntu-summary.png)
+
+11.  Kesabaran diuji. silakan tinggal dan bermain game atau aktivitas lainnya.
+
+    ![Ubuntu wait option](mdResource/ubuntu-installing.png)
 
 [^1]:Distro Linux adalah istilah yang merujuk pada distribusi sistem operasi berbasis Linux. Setiap distro terdiri dari kernel Linux yang merupakan inti dari sistem operasi, ditambah dengan koleksi perangkat lunak, manajer paket, antarmuka pengguna, dan utilitas lain yang dirancang untuk memenuhi kebutuhan tertentu atau audiens tertentu.
